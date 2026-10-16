@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pillow
+# --- real AI mode (skip these and run with MOCK=1 to just see the UI) ---
+torch
+diffusers
+transformers
+accelerate
+safetensors
+peft
